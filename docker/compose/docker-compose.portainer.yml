@@ -86,6 +86,7 @@ services:
       #PAPERLESS_OCR_LANGUAGE: eng
 
 volumes:
+  redisdata:
   data:
   media:
   pgdata:
